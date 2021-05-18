@@ -1,5 +1,7 @@
 # Predictive and Text Aanlytics Intro
 
+Data Acquisition --> Data Pre-Processing --> Data Analysis --> Data Split --> Model Building --> Model Evaluation --> Model Retrain --> Model Deployment
+
 <h3>Algorithm</h3>
 
 <b>Regression Algorithm:</b>
