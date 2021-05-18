@@ -1,4 +1,4 @@
-# Predictive and Text Aanlytics Into
+# Predictive and Text Aanlytics Intro
 
 <h3>Algorithm</h3>
 
