@@ -118,7 +118,15 @@ Algorithms like Decision Tree, Random Forest, Naïve Bayes can be used for regre
 <h5>Step8: Model Deployment</h5>
 
     Model Deployment using Flask/Django and using docker containers
-    
+ 
+ 
+ More info on the scenerios like the below can be found in the <a href ="https://github.com/anirudhrangaraju/Data-Science-Intro/blob/main/Data%20Analysis/basic_datascience_info.xlsx:">link</a>
+ * How to Choose the Algorithm ?
+ * How to Choose the Metrics for Predictive/Text Analytics
+ * various Feature Engineering techniques for Predictive/text Analytics
+
+Link: 
+ 
  
  Appendix<br>
  [1]Missing Value Imputation: https://towardsdatascience.com/6-different-ways-to-compensate-for-missing-values-data-imputation-with-examples-6022d9ca0779 
