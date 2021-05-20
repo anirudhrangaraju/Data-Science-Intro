@@ -34,7 +34,7 @@ Algorithms like Decision Tree, Random Forest, Naïve Bayes can be used for regre
 
 <h5>Step1: Data Acquisition</h5>
 
-    1. The data can be stream data/ loaded in the form of csv file 
+    1. The data can be stream data/ loaded in the form of csv file. how to load? : https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html
     2. Dealing with regression, classification(binary/multiclass) and clustering ML Models
     3. Target variable would be numerical/binary/multiclass(no text features)
 
@@ -56,8 +56,8 @@ Algorithms like Decision Tree, Random Forest, Naïve Bayes can be used for regre
 ```diff
 @@ Text Analytics@@
 ```
-    1. ngrams(bigrams,trigrams)
-    2. Stemming and Lemmatization
+    1. ngrams(bigrams,trigrams)[9]
+    2. Stemming and Lemmatization [10]
     3. Stop Words Removal
     4. data compression for large volume data
     5. Frequency Based and Predicton Based Embedding(tfidf vectorization, count vectorization, word2vec, word2vec+tfidf, doc2vec)
@@ -103,13 +103,13 @@ Algorithms like Decision Tree, Random Forest, Naïve Bayes can be used for regre
 @@ Predictive Analytics@@
 ```
 
-    1. Precision[9]
-    2. Recall[9]
-    3. F1-Score(Macro,Micro,Average Weighted)[9]
-    4. AUC(ROC Curve)[9]
-    5. Lift/Gain[9]
-    6. KS Metrics[9]
-    7. Log Loss/brier loss(Note: Log Loss and AUC are inversly proportional)[9]
+    1. Precision[11]
+    2. Recall[11]
+    3. F1-Score(Macro,Micro,Average Weighted)[11]
+    4. AUC(ROC Curve)[11]
+    5. Lift/Gain[11]
+    6. KS Metrics[11]
+    7. Log Loss/brier loss(Note: Log Loss and AUC are inversly proportional)[11]
 
 ```diff
 @@ Text Analytics@@
@@ -148,5 +148,7 @@ Algorithms like Decision Tree, Random Forest, Naïve Bayes can be used for regre
  <br>
  [8]Encoding Techniques: https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd
  <br>
- [9]Evaluation Metrics: https://neptune.ai/blog/evaluation-metrics-binary-classification
- <br>
+ [9]ngrams:https://medium.com/@phylypo/nlp-text-segmentation-with-ngram-b5506dbb514c</br>
+ [10]Stemming: https://medium.com/@tusharsri/nlp-a-quick-guide-to-stemming-60f1ca5db49e#:~:text=Stemming%20is%20basically%20removing%20the%20suffix%20from%20a%20word%20and,word%20from%20original%20stem%20word.</br>
+ [10]Lemma: https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html</br>
+ [11]Evaluation Metrics: https://neptune.ai/blog/evaluation-metrics-binary-classification<br>
