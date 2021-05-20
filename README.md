@@ -1,21 +1,26 @@
 # Predictive and Text Aanlytics Intro
 
+## Table of contents
+* [ML Pipeline](#ml-pipeline)
+* [Algorithms](#algorithms)
+* [ML Life Cycle](#ml-life-cycle)
+* [Additional Information](#additional-information)
+* [Appendix](#appendix)
+
 Handbook can be viewed here. https://github.com/anirudhrangaraju/Data-Science-Intro/blob/main/handbook.md
 
-#####################################################################################</br>
-<b>ML Pipeline</b></br>
-#####################################################################################</br>
 
-Data Acquisition --> Data Pre-Processing --> Data Analysis --> Data Split --> Model Building --> Model Evaluation --> Model Retrain --> Model Deployment
+## ML Pipeline
 
-######################################################################################
+Data Acquisition -->Data Pre-Processing -->Data Analysis --> Data Split --> Model Building --> Model Evaluation --> Model Retrain --> Model Deployment
 
-<h3>ML/DL Algorithm</h3>
+## Algorithms
 
-<b>ML Regression Algorithm:</b>
+<h5>ML Regression Algorithm:</h5>
+
 * `Linear Regression`
 
-<b>ML Classification Algorithm:</b>
+<h5>ML Classification Algorithm:</h5>
 
 * `Logistics Regression(Aka MaxEnt)`
 * `Decision Tree`
@@ -26,20 +31,22 @@ Data Acquisition --> Data Pre-Processing --> Data Analysis --> Data Split --> Mo
 * `7. Naive Bayes`
 * `SVM(Support Vector Machines)`
 
-<b>ML Cluster Algorithm:</b>
+<h5>ML Cluster Algorithm:</h5>
 
 * `K-Means Clustering`
 
-<b> Deep Learning Algorithm </b>
+<h5> Deep Learning Algorithm </h5>
 
 * Tensorflow
 * Keras(backend with tensorflow, CNTK, Theano)
 
-<b> Time Series Algorithm </b>
+<h5> Time Series Algorithm </h5>
 
-* ARIMA
+* ARIMA<br>
 <u>Note:</u> <br>
 Algorithms like Decision Tree, Random Forest, Naïve Bayes can be used for regression problem as well. However the accuracy differs based on the data set.
+
+## ML Life Cycle
 
 <h5>Step1: Data Acquisition</h5>
 
@@ -143,7 +150,7 @@ Algorithms like Decision Tree, Random Forest, Naïve Bayes can be used for regre
  * various Feature Engineering techniques for Predictive/text Analytics
 
 
-<b>Additional Information:</b>
+## Additional Information
 1. How to know the statistical info about data such as min/max/percentile(p10/p30/p90) ?
 2. What is Drift Detection and how to Identify ?
 3. How can we build the model using External Services without building the model in python
@@ -151,7 +158,7 @@ Algorithms like Decision Tree, Random Forest, Naïve Bayes can be used for regre
 
 If Intereseted, please visit the link: 
 
- <b>Appendix</b><br>
+## Appendix
  [1]Missing Value Imputation: https://towardsdatascience.com/6-different-ways-to-compensate-for-missing-values-data-imputation-with-examples-6022d9ca0779 
  <br>
  [2]Outlier Detection: https://towardsdatascience.com/ways-to-detect-and-remove-the-outliers-404d16608dba 
