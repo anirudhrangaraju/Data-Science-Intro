@@ -1,5 +1,6 @@
 # Predictive and Text Aanlytics Intro
 
+Handbook can be viewed here. https://github.com/anirudhrangaraju/Data-Science-Intro/blob/main/handbook.md
 
 #####################################################################################</br>
 <b>ML Pipeline</b></br>
