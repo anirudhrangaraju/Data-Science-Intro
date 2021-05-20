@@ -143,7 +143,7 @@ Algorithms like Decision Tree, Random Forest, Naïve Bayes can be used for regre
  * various Feature Engineering techniques for Predictive/text Analytics
 
 
-<b>Additional Information</b>
+<b>Additional Information:</b>
 1. How to know the statistical info about data such as min/max/percentile(p10/p30/p90) ?
 2. What is Drift Detection and how to Identify ?
 3. How can we build the model using External Services without building the model in python
