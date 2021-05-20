@@ -10,12 +10,12 @@ Data Acquisition --> Data Pre-Processing --> Data Analysis --> Data Split --> Mo
 
 ######################################################################################
 
-<h3>Algorithm</h3>
+<h3>ML/DL Algorithm</h3>
 
-<b>Regression Algorithm:</b>
+<b>ML Regression Algorithm:</b>
 * `Linear Regression`
 
-<b>Classification Algorithm:</b>
+<b>ML Classification Algorithm:</b>
 
 * `Logistics Regression(Aka MaxEnt)`
 * `Decision Tree`
@@ -26,10 +26,18 @@ Data Acquisition --> Data Pre-Processing --> Data Analysis --> Data Split --> Mo
 * `7. Naive Bayes`
 * `SVM(Support Vector Machines)`
 
-<b>Cluster Algorithm:</b>
+<b>ML Cluster Algorithm:</b>
 
 * `K-Means Clustering`
 
+<b> Deep Learning Algorithm </b>
+
+* Tensorflow
+* Keras(backend with tensorflow, CNTK, Theano)
+
+<b> Time Series Algorithm </b>
+
+* ARIMA
 <u>Note:</u> <br>
 Algorithms like Decision Tree, Random Forest, Naïve Bayes can be used for regression problem as well. However the accuracy differs based on the data set.
 
@@ -134,7 +142,16 @@ Algorithms like Decision Tree, Random Forest, Naïve Bayes can be used for regre
  * How to Choose the Metrics for Predictive/Text Analytics
  * various Feature Engineering techniques for Predictive/text Analytics
 
- Appendix<br>
+
+<b>Additional Information</b>
+1. How to know the statistical info about data such as min/max/percentile(p10/p30/p90) ?
+2. What is Drift Detection and how to Identify ?
+3. How can we build the model using External Services without building the model in python
+4. How to handle the infrastructure limitations to stoe large volume of predictors
+
+If Intereseted, please visit the link: 
+
+ <b>Appendix</b><br>
  [1]Missing Value Imputation: https://towardsdatascience.com/6-different-ways-to-compensate-for-missing-values-data-imputation-with-examples-6022d9ca0779 
  <br>
  [2]Outlier Detection: https://towardsdatascience.com/ways-to-detect-and-remove-the-outliers-404d16608dba 
