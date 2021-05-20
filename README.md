@@ -1,18 +1,12 @@
 # Predictive and Text Aanlytics Intro
 
 ## Table of contents
-* [ML Pipeline](#ml-pipeline)
 * [Algorithms](#algorithms)
 * [ML Life Cycle](#ml-life-cycle)
 * [Additional Information](#additional-information)
 * [Appendix](#appendix)
 
 Handbook can be viewed here. https://github.com/anirudhrangaraju/Data-Science-Intro/blob/main/handbook.md
-
-
-## ML Pipeline
-
-Data Acquisition -->Data Pre-Processing -->Data Analysis --> Data Split --> Model Building --> Model Evaluation --> Model Retrain --> Model Deployment
 
 ## Algorithms
 
@@ -48,6 +42,9 @@ Algorithms like Decision Tree, Random Forest, Naïve Bayes can be used for regre
 
 ## ML Life Cycle
 
+##################################################################################################<br>
+Data Acquisition -->Data Pre-Processing -->Data Analysis --> Data Split --> Model Building --> Model Evaluation --> Model Retrain --> Model Deployment<br>
+##################################################################################################<br>
 <h5>Step1: Data Acquisition</h5>
 
     1. The data can be stream data/ loaded in the form of csv file. how to load? : https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html
