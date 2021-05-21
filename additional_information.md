@@ -33,8 +33,64 @@ External Services:
   3. Microsoft(Microsoft ML Studio, Microsoft Luis)<br>
   4. H2O<br>
   
-How to handle the infrastructure limitations to stoe large volume of predictors
+ <b> PDF Data Extraction </b>
+ 
+ Machine Learning Algorithms:
+ 
+| Tabular Data Extraction |
+| --- |
+| Camelot(stable) |
+| Tabula(stable) |
 
-How to know the statistical info about data such as min/max/percentile(p10/p30/p90) ?
+| Text Data Extraction |
+| --- |
+| pypdf2(stable and widely Used) |
+| pdfplumber(stable and widely Used) |
+| pdfminer(stable and widely Used) |
+| fitz(Unstable) |
+| slate(Unstable) |
+| pdftotree(unstable) |
+| invoice2data(template based) |
+
+| Image Data Extraction |
+| --- |
+| tesaract |
+| Flexy Abby Capture and Layout |
+
+2. Deep Learning Algorithms
+
+| Tabular Data Extraction |
+| --- | 
+| DeepDeSRT |
+| TableNet |
+
+<b>Notes</b>
+Please find the suporting documents below:
+
+| Library | Documentation |
+| --- | --- |
+| pdfplumber | https://github.com/jsvine/pdfplumber |
+| pypdf2 | https://pythonhosted.org/PyPDF2/index.html |
+| tabula | https://tabula-py.readthedocs.io/en/latest/tabula.html <br> https://tabula-py.readthedocs.io/en/latest/ |
+| pdfminer and fitz | https://pdfminer-docs.readthedocs.io/programming.html | 
+| pdftotree | https://github.com/HazyResearch/pdftotree |
+| invoice2data | https://pypi.org/project/invoice2data/ |
+
+
+
+Additional Key Concepts to be covered:
+1. How to handle the infrastructure limitations to stoe large volume of predictors
+2. Set up Flas, Docker Container and Deploying ML Model in Heroku
+3. Calcualte statistical Analysis(min/max/percentile(p10/p30/p90)
+4. How does Text Recommendation works, and the implementation using algo such as (IBCF)
+5. Example for CNN, RNN, Tensorfloe, Keras
+6. What is Fuzzy Logic and how does it help in the real world
+7. Explain Time Series Slgorithm
+8. Neural Netrwork Achitecture
+9. Image classificationa and Recognition using OpenCV, Pre-trained Model(Inception, VGGNet, DenseNet, Retinanet)
+10. What is Word2Vec,Doc2Vec, Word2Vec + Tfidf. Explaination with example
+11. Voice Pricessing(Voice to text)
+
+
 
 
