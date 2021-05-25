@@ -1,6 +1,12 @@
 
+## Table of contents
+* [Drift Detection](#drift-detection)
+* [External Services Model](#external-services-model)
+* [PDF Data Extraction](#pdf-data-extraction)
+* [Additional Concepts](#additional-concepts)
 
-<b> Drift Detection </b>
+
+## Drift Detection
 
 Change in the input/output data over a period of time which affects the model can be considered as drift detection
 
@@ -16,6 +22,8 @@ Change in the input/output data over a period of time which affects the model ca
    * KS(Kolmogorov-Smirnov) Test
    * Chi-Square
 
+<h5> Statistical Approach Details </h5>
+
 | Statistical Test | Analysis |
 | --- | --- |
 |`Kullback Leibler`| * not normalized.<br><br> * scores doesn't have boundaries and it hence it is difficult to identify the most deviated distribution.<br><br> <b>Source:</b>https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.entropy.html 
@@ -24,40 +32,34 @@ Change in the input/output data over a period of time which affects the model ca
 |`Chi- Square`| * effective for categorical and not continuous variables.<br><br> * invalid when the reference and target frequencies in each distributions are too small. <br><br> <b>Source:</b>https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.chisquare.html
 
 
-<b> External Services Model</b>
-We can build the model using external services instead of in-house model(training/validating using python scripts)
+## External Services Model
+We can build the ML/DL model using external services instead of in-house model(training/validating using python scripts)
   
-External Services:
-  1. Amazon(Amazon Sage Maker, Amazon Comprehend)<br>
-  2. Google(Google Auto ML, Google Cloud Natural Langauge,  GCP)<br>
-  3. Microsoft(Microsoft ML Studio, Microsoft Luis)<br>
-  4. H2O<br>
-  
- <b> PDF Data Extraction </b>
+<h5> External Services Support: </h5>
+
+1. Predicitive Analytics
+   * Amazon Sage Maker
+   * Amazon Sage Maker Autopilot
+   * GCP
+   * Azure ML Studio
+   * H20
+
+2. Text Analytics
+   * Amazon Comprehend
+   * Google Auto ML
+   * Google Cloud Natural Langauge
+   * Microsoft Luis
+   * H2O
+
+## PDF Data Extraction
  
- Machine Learning Algorithms:
+* Machine Learning Algorithms:
  
-| Tabular Data Extraction |
-| --- |
-| Camelot(stable) |
-| Tabula(stable) |
+Tabular Data Extraction | Text Data Extraction | Image Data Extraction
+| --- | --- | --- | 
+| * camelot(stable) <br> * Tabula(stable) | * pypdf2(stable and widely used) <br> * pdfplumber(stable and widely Used) <br> * pdfminer(stable and widely Used) <br> * fitz(Unstable) <br> * slate(Unstable) <br> * pdftotree(unstable) <br> * invoice2data(template based) | * tesaract <br> * Flexy Abby Capture and Layout | 
 
-| Text Data Extraction |
-| --- |
-| pypdf2(stable and widely Used) |
-| pdfplumber(stable and widely Used) |
-| pdfminer(stable and widely Used) |
-| fitz(Unstable) |
-| slate(Unstable) |
-| pdftotree(unstable) |
-| invoice2data(template based) |
-
-| Image Data Extraction |
-| --- |
-| tesaract |
-| Flexy Abby Capture and Layout |
-
-2. Deep Learning Algorithms
+* Deep Learning Algorithms
 
 | Tabular Data Extraction |
 | --- | 
@@ -77,6 +79,7 @@ Please find the suporting documents below:
 | invoice2data | https://pypi.org/project/invoice2data/ |
 
 
+## Additional Concepts
 
 Additional Key Concepts to be covered:
 1. How to handle the infrastructure limitations to stoe large volume of predictors
