@@ -151,7 +151,10 @@ Data Acquisition -->Data Pre-Processing -->Data Analysis --> Data Split --> Mode
 1. How to know the statistical info about data such as min/max/percentile(p10/p30/p90) ?
 2. What is Drift Detection and how to Identify ?
 3. How can we build the model using External Services without building the model in python
-4. How to handle the infrastructure limitations to stoe large volume of predictors
+4. How to handle the infrastructure limitations to store large volume of predictors
+5. Fuzzy Logic explanation and example
+6. Web Scrapping using spacy
+7. Model Deployment using Heroku
 
 If Intereseted, please visit the link: 
 
