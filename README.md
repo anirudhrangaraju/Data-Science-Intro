@@ -1,4 +1,4 @@
-# Predictive and Text Aanlytics Intro
+# ML Intro
 
 ## Table of contents
 * [Algorithms](#algorithms)
